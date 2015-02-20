@@ -2293,3 +2293,397 @@ Started GET "/about" for 127.0.0.1 at 2015-02-19 16:13:20 -0800
 Processing by PagesController#about as HTML
   Rendered pages/about.html.erb (0.6ms)
 Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:28:33 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (2.8ms)
+Completed 200 OK in 18ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:31:24 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:31:53 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:32:11 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:32:13 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:32:28 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:32:55 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:33:30 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (0.4ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:34:26 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:35:28 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:36:04 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:37:05 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:37:49 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:37:51 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:37:57 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:37:58 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:38:19 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:38:21 -0800
+
+SyntaxError (/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+	get: "about", to "pages#about"
+	    ^
+/Users/jenniferbe/railsdecal/sp15-hw1/app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+	get: "about", to "pages#about"
+	             ^):
+  app/controllers/application_controller.rb:6: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/application_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 578ms (Views: 577.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hi.css?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/hi.js?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-19 18:38:53 -0800
+
+
+Started GET "/assets/banner-bg.jpg" for 127.0.0.1 at 2015-02-19 18:38:54 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:39:26 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hi.css?body=1" for 127.0.0.1 at 2015-02-19 18:39:26 -0800
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2015-02-19 18:39:26 -0800
+
+
+Started GET "/assets/hi.js?body=1" for 127.0.0.1 at 2015-02-19 18:39:26 -0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:39:29 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:39:44 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:40:04 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hi.css?body=1" for 127.0.0.1 at 2015-02-19 18:40:05 -0800
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2015-02-19 18:40:05 -0800
+
+
+Started GET "/assets/hi.js?body=1" for 127.0.0.1 at 2015-02-19 18:40:05 -0800
+
+
+Started GET "/assets/bduck-chase.gif" for 127.0.0.1 at 2015-02-19 18:40:05 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bduck-chase.gif"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:40:09 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-19 18:40:10 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:40:11 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:40:21 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hi.css?body=1" for 127.0.0.1 at 2015-02-19 18:40:21 -0800
+
+
+Started GET "/assets/hi.js?body=1" for 127.0.0.1 at 2015-02-19 18:40:21 -0800
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2015-02-19 18:40:21 -0800
+
+
+Started GET "/assets/duck-chase.gif" for 127.0.0.1 at 2015-02-19 18:40:21 -0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-02-19 18:41:39 -0800
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hi.css?body=1" for 127.0.0.1 at 2015-02-19 18:41:40 -0800
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2015-02-19 18:41:40 -0800
+
+
+Started GET "/assets/hi.js?body=1" for 127.0.0.1 at 2015-02-19 18:41:40 -0800
+
+
+Started GET "/assets/200_s.gif" for 127.0.0.1 at 2015-02-19 18:41:40 -0800

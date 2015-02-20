@@ -173,6 +173,7 @@ p.copyright {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  background-image: url(/assets/duck-chase.gif);
+  background-image: url(200_s.gif);
+  //background-color: red;
   background-size: cover;
 }
