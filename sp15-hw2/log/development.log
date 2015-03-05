@@ -7124,3 +7124,68 @@ Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 12:01:37 -080
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 12:01:37 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 13:02:53 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 87ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:53 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:53 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:53 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:53 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 13:02:53 -0800
+
+
+Started POST "/stringify" for 127.0.0.1 at 2015-02-26 13:02:59 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cQnqRA21ZHrjobLqIbPbySDvikIlFkgALNoqZa3wcwg=", "name"=>"jennifer", "adjective"=>"yellow", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:59 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 13:02:59 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:59 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:59 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 13:02:59 -0800
+
+
+Started PUT "/age" for 127.0.0.1 at 2015-02-26 13:03:05 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cQnqRA21ZHrjobLqIbPbySDvikIlFkgALNoqZa3wcwg=", "name"=>"jennifer", "age"=>"18", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 13:03:06 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 13:03:06 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 13:03:06 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 13:03:06 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 13:03:06 -0800
