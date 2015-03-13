@@ -481,3 +481,5 @@ Processing by PagesController#home as HTML
   [1m[36mTodo Load (0.1ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
   Rendered pages/home.html.erb within layouts/application (3.1ms)
 Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.3ms)
+  [1m[36mCat Load (1.4ms)[0m  [1mSELECT "cats".* FROM "cats"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"

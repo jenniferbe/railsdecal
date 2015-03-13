@@ -1,0 +1,531 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 17:17:24 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.5) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.0) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (20.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (47.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 17:31:25 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.5) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.0) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (15.1ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (33.3ms)
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150302232135)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150302232135"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Migrating to CreateDogs (20150313001834)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 17:31:56 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.5) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.0) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (12.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (26.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 17:31:57 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.5) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.0) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (4.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (18.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (32.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateDogs (20150313001834)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateDogs (20150313001834)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "dogs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "age" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150313001834"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 17:35:35 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/railties-4.1.5/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 21ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2015-03-12 17:37:26 -0700
+
+ActionController::RoutingError (No route matches [GET] "/user"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.0) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jenniferbe/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.8ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (11.8ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (25.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-03-12 17:37:32 -0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1484ms (Views: 1481.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-12 17:37:33 -0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-03-12 17:37:33 -0700
+
+
+Started GET "/assets/jquery-5c8e9a5f2706a5ae36c57c9b8b1693b8.js?body=1" for 127.0.0.1 at 2015-03-12 17:37:33 -0700
+
+
+Started GET "/assets/jquery_ujs-8163409ac89d9587bb33a62f6f74d283.js?body=1" for 127.0.0.1 at 2015-03-12 17:37:33 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-12 17:37:33 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-12 17:37:33 -0700
+
+
+Started GET "/assets/application-3389a58e893ccfa951d3de92bab997b0.js?body=1" for 127.0.0.1 at 2015-03-12 17:37:33 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-03-12 17:37:52 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 17:54:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/railties-4.1.5/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 19ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dogs" for 127.0.0.1 at 2015-03-12 17:54:44 -0700
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.1ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 250ms (Views: 247.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/dogs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-12 17:54:44 -0700
+
+
+Started GET "/assets/dogs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-12 17:54:44 -0700
+
+
+Started GET "/assets/application-a16ff688e1a531b85e9831e9037dbab3.js?body=1" for 127.0.0.1 at 2015-03-12 17:54:44 -0700
+
+
+Started GET "/dogs" for 127.0.0.1 at 2015-03-12 17:55:02 -0700
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/new" for 127.0.0.1 at 2015-03-12 17:55:22 -0700
+Processing by DogsController#new as HTML
+  Rendered dogs/new.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/dogs" for 127.0.0.1 at 2015-03-12 17:55:31 -0700
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"29h2b8rTsmbsaVmikUoc7E9zERmy2LMZOwVOwEHg11Y=", "dog"=>{"name"=>"Lucy", "age"=>"8"}, "commit"=>"Create Dog"}
+Completed 500 Internal Server Error in 6ms
+
+NameError (undefined local variable or method `dog_params' for #<DogsController:0x007ff56c764cb0>):
+  app/controllers/dogs_controller.rb:12:in `create'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.8ms)
+Cannot render console with content type application/x-www-form-urlencodedAllowed content types: [#<Mime::Type:0x007ff56bcda470 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007ff56bcda178 @synonyms=[], @symbol=:text, @string="text/plain">]
+
+
+Started GET "/dogs" for 127.0.0.1 at 2015-03-12 17:55:47 -0700
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.2ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/new" for 127.0.0.1 at 2015-03-12 17:55:50 -0700
+Processing by DogsController#new as HTML
+  Rendered dogs/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/dogs" for 127.0.0.1 at 2015-03-12 17:55:54 -0700
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"29h2b8rTsmbsaVmikUoc7E9zERmy2LMZOwVOwEHg11Y=", "dog"=>{"name"=>"Lucy", "age"=>"8"}, "commit"=>"Create Dog"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "dogs" ("age", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)  [["age", 8], ["created_at", "2015-03-13 00:55:54.535134"], ["name", "Lucy"], ["updated_at", "2015-03-13 00:55:54.535134"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/1
+Completed 302 Found in 10ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/dogs/1" for 127.0.0.1 at 2015-03-12 17:55:54 -0700
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs"  WHERE "dogs"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered dogs/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/dogs" for 127.0.0.1 at 2015-03-12 17:56:03 -0700
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"29h2b8rTsmbsaVmikUoc7E9zERmy2LMZOwVOwEHg11Y=", "dog"=>{"name"=>"Brody", "age"=>"0"}, "commit"=>"Create Dog"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "dogs" ("age", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)  [["age", 0], ["created_at", "2015-03-13 00:56:03.421010"], ["name", "Brody"], ["updated_at", "2015-03-13 00:56:03.421010"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/2
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/dogs/2" for 127.0.0.1 at 2015-03-12 17:56:03 -0700
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mDog Load (0.1ms)[0m  SELECT  "dogs".* FROM "dogs"  WHERE "dogs"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered dogs/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs/4" for 127.0.0.1 at 2015-03-12 17:56:06 -0700
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs"  WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Dog with 'id'=4):
+  app/controllers/dogs_controller.rb:21:in `show'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (19.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (48.2ms)
+
+
+Started GET "/dogs/" for 127.0.0.1 at 2015-03-12 17:56:20 -0700
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.4ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <h1>Dogs in the Database</h1>
+    2: <% @dogs.each do |d| %> <!-- Iterates through each user under the variable d -->
+    3:   Name: <p> <%= link_to d.name, dog_path(d) %> </p> <!-- Show the dogs name-->
+    4:   Age : <p> <%= u.age %> </p> <!-- Show the dogs' ages -->
+    5: <% end %>
+    6: 
+    7: <%= link_to "new", dogs_new_path %>
+  app/views/dogs/index.html.erb:4:in `block in _app_views_dogs_index_html_erb__1190761116956893433_70346014525740'
+  app/views/dogs/index.html.erb:2:in `_app_views_dogs_index_html_erb__1190761116956893433_70346014525740'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (14.6ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (31.3ms)
+
+
+Started GET "/dogs/" for 127.0.0.1 at 2015-03-12 17:56:24 -0700
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <h1>Dogs in the Database</h1>
+    2: <% @dogs.each do |d| %> <!-- Iterates through each user under the variable d -->
+    3:   Name: <p> <%= link_to d.name, dog_path(d) %> </p> <!-- Show the dogs name-->
+    4:   Age : <p> <%= u.age %> </p> <!-- Show the dogs' ages -->
+    5: <% end %>
+    6: 
+    7: <%= link_to "new", dogs_new_path %>
+  app/views/dogs/index.html.erb:4:in `block in _app_views_dogs_index_html_erb__1190761116956893433_70346014525740'
+  app/views/dogs/index.html.erb:2:in `_app_views_dogs_index_html_erb__1190761116956893433_70346014525740'
+
+
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.4ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (13.2ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jenniferbe/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (33.4ms)
+
+
+Started GET "/dogs/" for 127.0.0.1 at 2015-03-12 17:56:36 -0700
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.2ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.2ms)
