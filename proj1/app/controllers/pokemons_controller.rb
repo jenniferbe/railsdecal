@@ -13,7 +13,7 @@ class PokemonsController < ApplicationController
 		if @damaged.health <= 0
 			@damaged.destroy
 		end
-		redirect_to current_trainer
+		redirect_to @damaged.trainer
 	end
 
 	def new
